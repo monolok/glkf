@@ -170,6 +170,12 @@ section::before,section::after {
     text-shadow:none;
 }
 
+#nav-over {
+    float: none !important;
+    width: 100%;
+    text-align: center;
+    margin-left:-50px;
+}
 
 /* ==========================================================================
     04. Services 
