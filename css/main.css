@@ -113,13 +113,11 @@ section::before,section::after {
     text-transform:uppercase;
     font-weight:bold;
     display:inline-block;
-    background:#ed0121;
     padding:0px 18px;
 }
 #header .subtitle h4 {
     display:inline-block;
-    background:white;
-    color:#ed0121;
+    color:white;
     font-size:38px;
     padding:0px 15px;
 }
@@ -225,25 +223,44 @@ section::before,section::after {
     margin-top: 40px;
 }
 
+.clik {
+    cursor: pointer;
+}
+
+#a-tag1 {
+    color: white;
+}
+
+#a-tag2 {
+    color: white;
+}
+
+#a-tag3 {
+    color: white;
+}
+
+#a-tag4 {
+    color: white;
+}
 
 /* ==========================================================================
     05. parallax 
 ========================================================================== */
 .parallax {
-    background:url(../img/parallax1.jpg) fixed no-repeat center center;
+    background:url(../img/bg_flower.png) fixed no-repeat center center;
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
     -o-background-size:/*@@prefixmycss->No equivalent*/;
     background-size:cover;
     position:relative;
-    color:#FFF;
+    color:white;
 }
 .parallax .inner {
     padding-top:130px;
     padding-bottom:130px;
 }
 .parallax.parallax2 {
-    background-image:url(../img/parallax2.jpg);
+    background-image:url(../img/social.jpg);
 }
 .bm10 {
     margin-bottom:10px !important;
@@ -252,9 +269,18 @@ section::before,section::after {
     font-size:40px;
     margin-bottom:20px;
 }
-.parallax h1,.parallax h2,.parallax h3,.parallax h4,.parallax h5,.parallax h6 {
-    color:#fff;
+/*.parallax h1,.parallax h2,.parallax h4,.parallax h5,.parallax h6 {
+    color:white;
+}*/
+
+#title-info {
+    color:black;
 }
+
+#title-food {
+    color:black;
+}
+
 .facts p {
     font-size:16px;
     text-transform:uppercase;
@@ -267,36 +293,20 @@ section::before,section::after {
     font-size: 70px;
 }
 
+#para-over-color{
+    color:black;
+}
 
 /* ==========================================================================
     06. Food menu 
 ========================================================================== */
-.menu-items {
-    text-align:center;
-    margin:0 auto;
-}
-.menu-titles h1 {
-    text-shadow:none;
-    color:#ed0121;
-    text-align:center;
-    margin:0 auto;
-    padding-top:30px;
-    padding-bottom:15px;
-}
+
 #food-menu ul {
     margin:0;
     padding:0;
     list-style:none;
 }
-.menu-images img {
-    -webkit-border-radius:10px;
-    -moz-border-radius:10px;
-    border-radius:10px;
-    border:5px solid #dadada;
-    display:block;
-    margin:auto;
-    margin-top: 40px;
-}
+
 
 
 /* ==========================================================================
@@ -379,34 +389,7 @@ section::before,section::after {
 /* ==========================================================================
     08. Reservation 
 ========================================================================== */
-.form-group {
-    margin-bottom:24px;
-}
-.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control {
-    cursor:not-allowed;
-    background-color: transparent;
-}
-.form-control {
-    height:38px;
-    font-size:14px;
-    vertical-align:middle;
-    background-color:transparent;
-    -webkit-border-radius:2px;
-    -webkit-border-radius:2px;
-    -moz-border-radius:2px;
-    border-radius:2px;
-    -webkit-box-shadow:none !important;
-    -moz-box-shadow:none !important;
-    box-shadow:none !important;
-    -webkit-transition:none !important;
-    -moz-transition:none !important;
-    -o-transition:none !important;
-    transition:none !important;
-}
 
-.form p {
-    margin: 10px 0 30px 0;
-}
 
 
 /* ==========================================================================
@@ -422,14 +405,20 @@ section::before,section::after {
     10. Footer 
 ========================================================================== */
 .dark-wrapper {
-    background:#ed0121;
+    background:url(../img/front.jpg) fixed no-repeat center center;
+    -webkit-background-size:/*@@prefixmycss->No equivalent*/;
+    -moz-background-size:cover;
+    -o-background-size:/*@@prefixmycss->No equivalent*/;
+    background-size:cover;
+    position:relative;
+/*    background:#ed0121;*/
     color:white;
     font-size:20px;
     font-weight:bold;
 }
-.dark-wrapper .ss-style-top::before {
+/*.dark-wrapper .ss-style-top::before {
     background-image:linear-gradient(315deg,#ed0121 50%,transparent 50%),linear-gradient(45deg,#ed0121 50%,transparent 50%);
-}
+}*/
 .social-bar {
     width:100%;
     text-align:right;
@@ -450,11 +439,6 @@ section::before,section::after {
 .social-bar a:hover {
     opacity:0.5;
     filter: alpha(opacity=50);
-}
-
-.themeBy{
-    color: #ed0121;
-    background: white;
 }
 
 /* ==========================================================================
