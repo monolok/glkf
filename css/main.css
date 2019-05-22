@@ -138,10 +138,18 @@ section::before,section::after {
     top:-5px;
 }
 .navbar-nav>li:nth-child(3) {
-    margin-right: 110px;
+/*    margin-right: 110px;*/
 }
 
-
+.ml_nav1 {
+    margin-left: 30px;
+}
+.mr_nav {
+    margin-right: 70px;
+}
+.ml_nav2 {
+    margin-left: 70px;
+}
 /* ==========================================================================
     03. Navigation 
 ========================================================================== */
@@ -176,7 +184,7 @@ section::before,section::after {
     float: none !important;
     width: 100%;
     text-align: center;
-    margin-left:-50px;
+/*    margin-left:-50px;*/
 }
 
 /* ==========================================================================
@@ -465,7 +473,7 @@ section::before,section::after {
         float:none !important;
         width:100%;
         text-align:center;
-        margin-left:9px;
+        /*margin-left:9px;*/
     }
     .navbar-nav>li {
         display:inline-block;
