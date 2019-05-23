@@ -504,4 +504,13 @@ section::before,section::after {
         text-align: left;
         margin-top: 30px;
     }
+    .ml_nav1 {
+        margin-left: 0px;
+    }
+    .mr_nav {
+        margin-right: 0px;
+    }
+    .ml_nav2 {
+        margin-left: 0px;
+    }    
 }
