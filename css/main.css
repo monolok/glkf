@@ -86,7 +86,7 @@ section::before,section::after {
     -o-background-size:cover;/*@@prefixmycss->No equivalent*/;
     background-size:cover;
     background-position:center center;
-    background-attachment:fixed;
+    background-attachment:scroll;
     background-repeat:no-repeat;
     position:relative;
 }
