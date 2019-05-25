@@ -259,14 +259,13 @@ section::before,section::after {
     05. parallax 
 ========================================================================== */
 .parallax {
-    background:url(../img/bg_flower.png) no-repeat center center;
-    -webkit-background-size:cover;/*@@prefixmycss->No equivalent*/;
+    background:url(../img/bg_flower.png) fixed no-repeat center center;
+    -webkit-background-size:cover;
     -moz-background-size:cover;
-    -o-background-size: cover;/*@@prefixmycss->No equivalent*/;
+    -o-background-size: cover;
     background-size:cover;
     position:relative;
     color:white;
-    background-attachment:fixed;
 }
 .parallax .inner {
     padding-top:130px;
@@ -274,6 +273,12 @@ section::before,section::after {
 }
 .parallax.parallax2 {
     background-image:url(../img/social.jpg);
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size:cover;
+    position:relative;
+    color:white;
 }
 .bm10 {
     margin-bottom:10px !important;
