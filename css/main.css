@@ -271,9 +271,9 @@ section::before,section::after {
     padding-top:130px;
     padding-bottom:130px;
 }
-.parallax.parallax2 {
+/*.parallax2 {
     background-image:url(../img/social.jpg);
-}
+}*/
 .bm10 {
     margin-bottom:10px !important;
 }
@@ -463,18 +463,6 @@ section::before,section::after {
         float: none;
         margin-bottom: 30px;
     }
-    .parallax.parallax2 {
-        background:url(../img/bg_flower.png) scroll center center;
-    }
-/*    .parallax.pricing {
-        background: url(../img/bg_flower.png) scroll no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        position: relative;
-        color: white;
-    }*/
 }
 
 @media (min-width:768px) {
