@@ -259,11 +259,14 @@ section::before,section::after {
     05. parallax 
 ========================================================================== */
 .parallax {
-    background:url(../img/bg_flower.png) fixed no-repeat center center;
-    -webkit-background-size:cover;
+    background:url(../img/bg_flower.png);
+    -webkit-background-size:cover;/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
-    -o-background-size: cover;
+    -o-background-size: cover;/*@@prefixmycss->No equivalent*/;
     background-size:cover;
+    background-position:center center;
+    background-attachment:scroll;
+    background-repeat:no-repeat;
     position:relative;
     color:white;
 }
