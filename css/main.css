@@ -463,6 +463,9 @@ section::before,section::after {
         float: none;
         margin-bottom: 30px;
     }
+    .parallax.parallax2 {
+        background:url(../img/bg_flower.png) fixed no-repeat center center;
+    }
 }
 
 @media (min-width:768px) {
