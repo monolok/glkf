@@ -464,7 +464,7 @@ section::before,section::after {
         margin-bottom: 30px;
     }
     .parallax.parallax2 {
-        background:url(../img/bg_flower.png) fixed no-repeat center center;
+        background:url(../img/bg_flower.png) scroll center center;
     }
 }
 
