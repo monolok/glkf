@@ -356,7 +356,7 @@ section::before,section::after {
     float:left;
 }
 .pricing-item-details a,.pricing-item-details p,.pricing .lead {
-    color:white;
+/*    color:white;*/
     font-weight:bold;
 }
 .pricing .pricing-item .pricing-item-details {
@@ -410,8 +410,14 @@ section::before,section::after {
 /* ==========================================================================
     10. Footer 
 ========================================================================== */
+
+#time {
+    color: black;
+}
+
 .dark-wrapper {
-    background:url(../img/cover.jpg) scroll no-repeat center center;
+    /*background:url(../img/cover.jpg) scroll no-repeat center center;*/
+    background: white;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
