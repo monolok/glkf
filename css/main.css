@@ -80,7 +80,7 @@ section::before,section::after {
     02. Header 
 ========================================================================== */
 #header {
-    background-image:url(../img/cover.jpg);
+    background-image:url(../img/front.jpg);
     -webkit-background-size:cover;/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
     -o-background-size:cover;/*@@prefixmycss->No equivalent*/;
@@ -141,15 +141,6 @@ section::before,section::after {
 /*    margin-right: 110px;*/
 }
 
-.ml_nav1 {
-    margin-left: 30px;
-}
-.mr_nav {
-    margin-right: 70px;
-}
-.ml_nav2 {
-    margin-left: 70px;
-}
 /* ==========================================================================
     03. Navigation 
 ========================================================================== */
@@ -420,7 +411,7 @@ section::before,section::after {
     10. Footer 
 ========================================================================== */
 .dark-wrapper {
-    background:url(../img/front.jpg) scroll no-repeat center center;
+    background:url(../img/cover.jpg) scroll no-repeat center center;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
